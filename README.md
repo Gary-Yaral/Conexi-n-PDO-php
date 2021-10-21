@@ -39,6 +39,9 @@ Asegurate de que el archivo y la clase se llamen igual, en este ejemplo se llama
         $connection = 'msql:host'.$this->host.';dbname:'.$this->db.';charset:utf8';
         $attributes = [PDO::ATTR_ERRMODE=> PDO::ERRMODE_EXCEPTION];
         $pdo = new PDO($connection, $this->user, $this->pass, $attributes);
+        echo 'Connection successfully'; 
+        return $pdo;
+
       } catch(PDOException $error) {
         die('Error message: '.$error->getMessage);
       }
@@ -46,3 +49,15 @@ Asegurate de que el archivo y la clase se llamen igual, en este ejemplo se llama
   }
 ?>
 ```
+**Nota: ** Para probar si la conexión se dió exitosamente, puedes crear un archivo adicional como el que te dejo en la parte inferior.
+
+### getConnection.php
+
+``` php
+<?php
+  require_once('Connection.php');
+
+  $connection = new Connection();
+  $connection->connect();
+?>
+  
