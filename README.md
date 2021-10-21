@@ -15,6 +15,7 @@ Para realizar una conexión a base de datos por medio de PDO vas a necesitar est
   define('PASSWORD', '');
   define('DATABASE', 'aqui_va_tu_base_de_datos');
 ?>
+```
 
 ### Connection.php
 Asegurate de que el archivo y la clase se llamen igual, en este ejemplo se llamarán 'Connection'. 
@@ -34,3 +35,4 @@ Asegurate de que el archivo y la clase se llamen igual, en este ejemplo se llama
     }
   }
 ?>
+```
