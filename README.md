@@ -4,3 +4,5 @@ Para realizar una conexión a base de datos por medio de PDO vas a necesitar est
 - Archivo config.php
 - Archivo Conexion.php
 
+* Ahora te explico para que necesitarás cada uno
+
