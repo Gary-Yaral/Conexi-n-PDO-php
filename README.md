@@ -4,8 +4,8 @@ Para realizar una conexión a base de datos por medio de PDO vas a necesitar est
 - Archivo config.php
 - Archivo Connection.php
 
-## Código que contendrán cada archivo
-
+## Código que contendrá cada archivo
+**No olvides:** Debes crear los archivos con los nombres y con los códigos que te muestro a continuación.
 ### config.php
 
 ``` php
@@ -13,12 +13,12 @@ Para realizar una conexión a base de datos por medio de PDO vas a necesitar est
   define('HOST', 'localhost');
   define('USER', 'root');
   define('PASSWORD', '');
-  define('DATABASE', 'aqui_va_tu_base_de_datos');
+  define('DATABASE', 'tu_base_de_datos');
 ?>
 ```
 
 ### Connection.php
-Asegurate de que el archivo y la clase se llamen igual, en este ejemplo se llamarán 'Connection'. 
+Asegurate de que el archivo y la clase se llamen igual, en este ejemplo se llamarán **Connection**. 
 ``` php
 <?php
   class Connection {
