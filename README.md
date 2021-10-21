@@ -27,11 +27,15 @@ Asegurate de que el archivo y la clase se llamen igual, en este ejemplo se llama
     private $pass;
     private $db;
 
-    function _construct() {
+    public function _construct() {
       $this->host = HOST;
       $this->user = USER;
       $this->pass = PASSWORD;
       $this->db = DATABASE;
+    }
+
+    public function connect() {
+      $connection = 'msql:host'.$this->host.';dbname:'.$this->db.';charset:utf8';
     }
   }
 ?>
