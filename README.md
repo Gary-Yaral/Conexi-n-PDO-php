@@ -49,7 +49,8 @@ Asegurate de que el archivo y la clase se llamen igual, en este ejemplo se llama
   }
 ?>
 ```
-**Nota: ** Para probar si la conexión se dió exitosamente, puedes crear un archivo adicional como el que te dejo en la parte inferior.
+
+**Nota:** Para probar si la conexión se dió exitosamente, puedes crear un archivo adicional como el que te dejo en la parte inferior.
 
 ### getConnection.php
 
