@@ -8,5 +8,6 @@ Para realizar una conexión a base de datos por medio de PDO vas a necesitar est
 
 ### config.php
 
-
+``` php
+echo 'Hello world';
 
