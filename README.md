@@ -1,4 +1,4 @@
-# Conexión PDO php y msql
+# Conexión PDO con PHP y MYSQL
 Para realizar una conexión a base de datos por medio de PDO vas a necesitar estos tres elementos:
 - Base de datos
 - Archivo config.php
