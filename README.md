@@ -1,1 +1,1 @@
-# Conexi-n-PDO-php
+# Conexión PDO php
