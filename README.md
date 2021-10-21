@@ -5,7 +5,7 @@ Para realizar una conexión a base de datos por medio de PDO vas a necesitar est
 - Archivo Connection.php
 
 ## Crea tu base de datos MSQL
-Antes de realizar la conexión debes haber creado previamente tu base de datos en algún gestor de base de datos, ya sea en **xampp**, **wampserver, **sqlserver**, **etc**.
+Antes de realizar la conexión debes haber creado previamente tu base de datos en algún gestor de base de datos, ya sea en **xampp**, **wampserver**, **sqlserver**, **etc**.
 ## Código que contendrá cada archivo
 **No olvides:** Debes crear los archivos con los nombres y códigos que te muestro a continuación.
 ### config.php
