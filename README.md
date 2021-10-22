@@ -12,10 +12,11 @@ Antes de realizar la conexión debes haber creado previamente tu base de datos e
 
 ``` php
 <?php
+  // No olvides cambiar los datos por los de tu conexión
   define('HOST', 'localhost');
   define('USER', 'root');
   define('PASSWORD', '');
-  define('DATABASE', 'tu_base_de_datos');
+  define('DATABASE', 'my_db');
 ?>
 ```
 
@@ -29,7 +30,7 @@ Asegurate de que el archivo y la clase se llamen igual, en este ejemplo se llama
     private $pass;
     private $db;
 
-    public function _construct() {
+    public function __construct() {
       $this->host = HOST;
       $this->user = USER;
       $this->pass = PASSWORD;
