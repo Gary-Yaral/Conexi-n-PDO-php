@@ -24,6 +24,8 @@ Antes de realizar la conexión debes haber creado previamente tu base de datos e
 Asegurate de que el archivo y la clase se llamen igual, en este ejemplo se llamarán **Connection**. 
 ``` php
 <?php
+  include_once 'config.php';
+
   class Connection {
     private $host;
     private $user;
