@@ -41,7 +41,7 @@ Asegurate de que el archivo y la clase se llamen igual, en este ejemplo se llama
 
     public function connect() {
       try {
-        $connection = 'msql:host'.$this->host.';dbname:'.$this->db.';charset:utf8';
+        $connection = 'msql:host='.$this->host.';dbname='.$this->db.';charset=utf8';
         $attributes = [PDO::ATTR_ERRMODE=> PDO::ERRMODE_EXCEPTION];
         $pdo = new PDO($connection, $this->user, $this->pass, $attributes);
         echo 'Connection successfully'; 
