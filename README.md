@@ -41,14 +41,14 @@ Asegurate de que el archivo y la clase se llamen igual, en este ejemplo se llama
     // Recuerda que debes quitar la frase que está en el echo para que ya no se muestre ese mensaje
     public function connect() {
       try {
-        $connection = 'msql:host='.$this->host.';dbname='.$this->db.';charset=utf8';
+        $connection = 'mysql:host='.$this->host.';dbname='.$this->db.';charset=utf8';
         $attributes = [PDO::ATTR_ERRMODE=> PDO::ERRMODE_EXCEPTION];
         $pdo = new PDO($connection, $this->user, $this->pass, $attributes);
         echo 'Connection successfully'; 
         return $pdo;
 
       } catch(PDOException $error) {
-        die('Error message: '.$error->getMessage);
+        die('Error message: '.$error->getMessage());
       }
     }
   }
